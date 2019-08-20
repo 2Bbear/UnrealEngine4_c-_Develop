@@ -15,7 +15,7 @@ AGenericCharacter::AGenericCharacter()
 
 
 	//Camera
-	pCmaera = CreateDefaultSubobject<UCameraComponent>(TEXT("ppCmaera"));
+	pCmaera = CreateDefaultSubobject<UCameraComponent>(TEXT("pCmaera"));
 	pCmaera->SetupAttachment(pSpringArm);
 	
 }
